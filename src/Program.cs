@@ -34,6 +34,12 @@
             Console.WriteLine("Result - " + rockPaperScissors.GetResultGame(movePlayer, moveComputer));
             Console.WriteLine("HMAC key: " + keyGenerator.key + "\n");
 
+            Console.Write("Продолжить?(y/n) ");
+            if("y".Equals(Console.ReadLine()))
+            {
+                continue;
+            }
+            break;
         }
     }
 }
