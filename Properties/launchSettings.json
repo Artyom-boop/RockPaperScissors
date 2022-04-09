@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RockPaperScissors": {
+      "commandName": "Project",
+      "commandLineArgs": "m a b c d e"
+    }
+  }
+}
