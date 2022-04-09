@@ -11,7 +11,6 @@
         int i = rnd.Next(movements.Count);
         return movements[i];
     }
-
     public string MovePlayer()
     {
         Console.Write("Enter your move: ");
@@ -28,7 +27,6 @@
         }
         return movement;
     }
-
     private bool IsValidMovePlayer(string indexMovement, out string movement)
     {
         int index;
@@ -77,7 +75,6 @@
         }
         return false;
     }
-
     public string GetResultGame(string player, string computer)
     {
         if (player == computer)

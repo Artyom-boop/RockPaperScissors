@@ -1,12 +1,11 @@
-﻿class Help
+﻿//Class for generating a table Help
+class Help
 {
     RockPaperScissors rockPaperScissors;
-
     public Help(RockPaperScissors rockPaperScissors)
     {
         this.rockPaperScissors = rockPaperScissors;
     }
-  
     public void PrintHelp()
     {
         Console.Write("               |");
