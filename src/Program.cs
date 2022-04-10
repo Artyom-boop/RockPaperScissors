@@ -13,7 +13,6 @@
             Console.WriteLine("The elements should not be repeated");
             return;
         }
-
         Help help = new(rockPaperScissors);
         KeyGenerator keyGenerator = new KeyGenerator();
         for (; ; )
